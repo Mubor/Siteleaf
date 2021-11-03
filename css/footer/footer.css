@@ -1,1 +1,21 @@
-/* No CSS *//*# sourceMappingURL=footer.css.map */
+.footer {
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.footer__item {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.links {
+  width: 55%;
+  margin: 0 auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.links__link {
+  text-decoration: none;
+}
+/*# sourceMappingURL=footer.css.map */
