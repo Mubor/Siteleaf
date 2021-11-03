@@ -1,3 +1,5 @@
+$wrapsize:100%;
+
 .introduction {
     margin-top: 13%;
     padding-bottom: 11%;
@@ -28,6 +30,10 @@
     padding: 12% 0 9%;
     border-bottom: 2px solid lightgray;
 
+    .heading {
+        font-size: 32px;
+    }
+
     .text {
         margin-top: 3%;
     }
@@ -40,7 +46,7 @@
 }
 
 .heading {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: bold;
     color: lighten(black, 20%);
 }
@@ -49,4 +55,41 @@
     line-height: 2;
     font-size: 22px;
     color: gray;
+}
+
+.portfolio {
+    &__text {
+        padding: 2% 0 0 1%;
+        justify-content: space-between;
+    }
+
+    &__subheading {
+        font-size: 23px;
+        color: lighten(black, 20%);
+
+    }
+
+    &__container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 6% 0 5%;
+
+    }
+
+    &__item {
+        margin-bottom: 6%;
+        width: $wrapsize/3.2;
+        height: 37vh;
+
+        &>* {
+            display: block;
+            width: $wrapsize;
+            height: $wrapsize;
+        }
+    }
+
+    &__img {
+        width: $wrapsize;
+        height: $wrapsize;
+    }
 }
