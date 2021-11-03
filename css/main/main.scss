@@ -1,0 +1,23 @@
+.introduction {
+    margin-top: 11%;
+    flex-direction: column;
+    align-items: center;
+    
+    &__logo {
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        font-size: 100px;
+        background-color: #df6267;
+        color: white;
+    }
+
+    &__heading {
+        padding-top: 5%;
+        text-align: center;
+        font-size: 54px;
+        font-weight: bold;
+    }
+}
