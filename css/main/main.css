@@ -1,5 +1,6 @@
 .introduction {
-  margin-top: 11%;
+  margin-top: 13%;
+  padding-bottom: 11%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -7,6 +8,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-bottom: 2px solid lightgray;
 }
 
 .introduction__logo {
@@ -29,5 +31,31 @@
   text-align: center;
   font-size: 54px;
   font-weight: bold;
+}
+
+.description {
+  padding: 12% 0 9%;
+  border-bottom: 2px solid lightgray;
+}
+
+.description .text {
+  margin-top: 3%;
+}
+
+.heading,
+.text {
+  text-align: center;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.text {
+  line-height: 2;
+  font-size: 22px;
+  color: gray;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,14 +1,14 @@
 
 .nav {
-    padding-left: 4%;
+    padding-left: 2%;
     justify-content: center;
     &__item {
-        padding: 1.5% 2%;
+        padding: 1.8% 2%;
         border-bottom-left-radius: 7px;
         border-bottom-right-radius: 7px;
         
         &--curr,&:hover {
-            padding: 1.6% 3%;
+            padding: 1.8% 3%;
             background-color: #3f3f3f;
             .nav__link {
                 color: white;
